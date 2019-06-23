@@ -9,7 +9,11 @@ namespace Chapter1
 
         static void Main(string[] args)
         {
-            UnderstandingThreads.Run();
+            // // NOTE: Rememeber to press any key...
+            // UnderstandingThreads.Run();
+
+            // NOTE: 
+            UsingTasks.Run();
         }
     };
 };

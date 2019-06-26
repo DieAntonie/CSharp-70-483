@@ -12,8 +12,11 @@ namespace Chapter1
             // // NOTE: Rememeber to press any key...
             // UnderstandingThreads.Run();
 
+            // // NOTE: 
+            // UsingTasks.Run();
+
             // NOTE: 
-            UsingTasks.Run();
+            UsingTheParallelClass.Run();
         }
     };
 };

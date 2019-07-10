@@ -9,12 +9,12 @@ namespace Chapter1.ImplementingMultithreadingAsynchronousProcessing
     {
         public static void Run()
         {
-            UsingParallelFor();
-            UsingParallelForeach();
-            UsingParallelBreak();
+            Using_Parallel_For();
+            Using_Parallel_Foreach();
+            Using_Parallel_Break();
         }
 
-        private static void UsingParallelFor()
+        private static void Using_Parallel_For()
         {
             Parallel.For(0, 10, value =>
             {
@@ -23,7 +23,7 @@ namespace Chapter1.ImplementingMultithreadingAsynchronousProcessing
             });
         }
 
-        private static void UsingParallelForeach()
+        private static void Using_Parallel_Foreach()
         {
             var numbers = Enumerable.Range(0, 10);
             Parallel.ForEach(numbers, value =>
@@ -33,7 +33,7 @@ namespace Chapter1.ImplementingMultithreadingAsynchronousProcessing
             });
         }
 
-        private static void UsingParallelBreak()
+        private static void Using_Parallel_Break()
         {
             ParallelLoopResult result = Parallel.For(0, 10, (int value, ParallelLoopState loopState) =>
             {

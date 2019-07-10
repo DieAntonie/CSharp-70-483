@@ -16,7 +16,10 @@ namespace Chapter1
             // UsingTasks.Run();
 
             // NOTE: 
-            UsingTheParallelClass.Run();
+            // UsingTheParallelClass.Run();
+
+            // NOTE: 
+            UsingAsyncAndAwait.Run();
         }
     };
 };
